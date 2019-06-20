@@ -20,7 +20,11 @@
 
   <!-- Custom styles for this template -->
   <link href="css/resume.css" rel="stylesheet">
-
+  <style type="css/text">
+    hr{
+      color:aqua;
+    }
+  </style>
 </head>
 
 <body id="page-top">
@@ -29,7 +33,7 @@
     <a class="navbar-brand js-scroll-trigger" href="#page-top">
       <span class="d-block d-lg-none">Mustafa Mossa</span>                <!--When reducing page size-->
       <span class="d-none d-lg-block">
-        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/Photo.png" alt="">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="./img/Photo.png" alt="">
       </span>
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,7 +54,10 @@
           <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+          <a class="nav-link js-scroll-trigger" href="#futureinterests">Future Interests</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#personalinterests">Personal Interests</a>
         </li>
       </ul>
     </div>
@@ -60,22 +67,22 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
       <div class="w-100">
-        <h1 class="mb-0">Mustafa<span style="color:aqua"> Mossa</span>
+        <h1 class="mb-0"><span style="-webkit-text-stroke-width:2px;-webkit-text-stroke-color:black;">Mustafa</span><span style="color:aqua"> Mossa</span>
         </h1>
-        <div class="subheading mb-5">+971528827662 ·                    <!--Changed Entire content of every header including: About, Experience, Education, Skill, Awards-->
-          <a href="mailto:name@email.com">mumossa64@hotmail.co.uk</a>   <!--Added icons in 'About', 'Skills' 'Future Interests'-->
-        </div>                                                           <!--Added header 'Future Interests'-->
-        <p class="lead mb-5">Young Developer In Training<br>Welcome to my site, this is where I'll share info about me and the work I'm currently doing at AstroLabs.</p>
+        <div class="subheading mb-5" style="color:white;""><span style="-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;"><strong>+971528827662 ·</strong></span>                   
+          <a href="mailto:name@email.com">mumossa64@hotmail.co.uk</a>  
+        </div>                                                           
+        <p class="lead mb-5" style="color:white;-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black; font-size:17pt"><strong>Young Developer In Training<br><br>Welcome to my site, this is where I'll share info about me and the work I'm currently doing at AstroLabs.</strong></p>
         <div class="row">
-            <div class="col-sm-4" style="margin-left:200px; font-size: 20pt; color:lightseagreen" >
+            <div class="col-sm-4" style="margin-left:200px; font-size: 22pt; color:aqua" >
                 <img src="./img/web-development.png" width=200/>
                  <br/>
-                Web Development
+                <strong><span style="-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;">Web Development</span></strong>
             </div>
-            <div class="col-sm-4" style="font-size:20pt; color:lightseagreen"> 
+            <div class="col-sm-4" style="font-size:21pt; color:aqua"> 
                     <img src="./img/Software Engineering.png" width=200/>
                     <br/>
-                Software Engineering
+                <strong><span style="-webkit-text-stroke-width:1px;-webkit-text-stroke-color:black;">Software Engineering</span></strong>
           </div>
     </div><br><br><br>
         <div class="social-icons">                                  
@@ -85,17 +92,20 @@
           <a href="https://github.com/MMGit64?tab=repositories" target="_blank">                  <!--Added github link-->
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://about.me/mustafamossa/getstarted" target="_blank">about.me</a>         <!--Deleted faceobook and twitter icons, replaced with about.me-->
+          <a href="https://about.me/mustafamossa/getstarted" target="_blank">me</a>         <!--Deleted faceobook and twitter icons, replaced with about.me-->
         </div>
       </div>
     </section>
-
-    <hr>
-
     <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
       <div class="w-100">
-        <h2 class="mb-5">Experience</h2>
-
+        <h2 class="mb-5"><br><br><br><br>Experience</h2>
+        <div class="conatiner">
+          <div class="row alig-items-start">
+            <div class= "col">
+                <img src="./img/HyperionDev.png" width=100>
+            </div>
+        </div>
+        </div>
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
             <h3 class="mb-0">HyperionDev</h3>                                                     
@@ -152,6 +162,13 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+              <div class="conatiner">
+                <div class="row alig-items-start">
+                  <div class= "col">
+                      <img src="./img/AstroLabs.png" width=200>
+                </div>
+              </div>
+           </div>
             <h3 class="mb-0">Astrolabs Coding Bootcamp Academy, Dubai UAE</h3>
             <div class="subheading mb-3">Fullstack Web Development</div>
             <p>Bootcamp course covering:
@@ -181,7 +198,7 @@
 
     </section>
 
-    <hr class="m-0">
+    <hr color="aqua">
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
       <div class="w-100">
@@ -189,6 +206,13 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
+              <div class="conatiner">
+                  <div class="row alig-items-start">
+                    <div class= "col">
+                        <img src="./img/Riga Stradins.jpg" width=150>
+                  </div>
+                </div>
+             </div>
             <h3 class="mb-0">Riga Stradins University, Latvia</h3>
             <div class="subheading mb-3">Diploma</div>
             <div>DDS - Doctor of Dental Surgery</div>
@@ -201,6 +225,13 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
           <div class="resume-content">
+              <div class="conatiner">
+                  <div class="row alig-items-start">
+                    <div class= "col">
+                        <img src="./img/Rochester.png" width=200>
+                  </div>
+                </div>
+             </div>
             <h3 class="mb-0">Rochester Independant College, UK</h3>
             <div class="subheading mb-3">A-LEVELS</div>
             <div class="container">
@@ -226,7 +257,7 @@
 
       </div>
     </section>
-    <hr class="m-0">
+    <hr color="aqua">
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
         <h2 class="mb-5">Skills</h2>
@@ -275,8 +306,8 @@
         </ul>
       </div>
     </section>
-    <hr class="m-0">
-    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+    <hr color="aqua">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="futureinterests">
       <div class="w-100">
         <h2 class="mb-5">Future Interests</h2>
         <div class="container">
@@ -297,10 +328,16 @@
     
         </div>
     </section>
-
-    <hr class="m-0">
-
-  </div>
+    <hr color="aqua">
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="personalinterests">
+        <div class="w-100">
+          <h2 class="mb-5">Personal Interests</h2>
+          <div class="container">
+              <p class="lead mb-5">From a young age I have enjoyed problem solving, with algebra being my strongest academic subject.<br> In my spare time I enjoy playing chess and learning Japanese.
+              I am an acitve individual indulging in range of physical/contact sports including gym and martial art practising Judo, Brazilian Jujistu
+              and Kickboxing.<br>I generally love to travel, particalurly fond of the far east and always putting considerations in broadening my horizons. </p>
+          </div>
+      </section>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
