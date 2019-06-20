@@ -190,9 +190,9 @@ section.resume-section .resume-item .resume-date {
 }
 
 a {
-  color:aqua;
+  color:snow;
 }
 
 a:hover, a:focus, a:active {
-  color: blue;
+  color: aqua;
 }
