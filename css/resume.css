@@ -6,9 +6,11 @@
 
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-  padding-top: 54px;
+  margin-top: 0px;
+  margin-bottom: 1000px;
   color: #868e96;
   background-image: url("../img/nature.jpg");
+  background: cover;
   background-repeat: no-repeat;
   background-color: black;
 }
@@ -180,7 +182,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background-image:url("../img/underwater2.gif"),url(" ../img/ocean.jpg");
+  background-image:url("../img/darktrees.jpg"),url(" ../img/forest.png");
   background-repeat: no-repeat;
   background-color: lightseagreen !important;          /*changed color of side content background*/
 }
